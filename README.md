@@ -1,2 +1,2 @@
 # neuralNetwork
-Neural network with MatLab for number recognition 
+Neural network using MatLab for number clasification 
