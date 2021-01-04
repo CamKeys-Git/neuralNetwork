@@ -1,7 +1,7 @@
-function checkNNGradients(lambda)
-%CHECKNNGRADIENTS Creates a small neural network to check the
+function checkGradients(lambda)
+%CHECKGRADIENTS Creates a small neural network to check the
 %backpropagation gradients
-%   CHECKNNGRADIENTS(lambda) Creates a small neural network to check the
+%   CHECKGRADIENTS(lambda) Creates a small neural network to check the
 %   backpropagation gradients, it will output the analytical gradients
 %   produced by your backprop code and the numerical gradients (computed
 %   using computeNumericalGradient). These two gradient computations should
