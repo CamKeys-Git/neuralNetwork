@@ -1,7 +1,9 @@
 # numberClassifier
 
-Neural Network For Handwritten Number Clasification With MatLab
+Neural Network For Handwritten Number Clasification 
 
+
+This neural network uses a "vectorized implementation" of the regularized cost function with MatLab.
 
 To get stared, load the dataset containing images of handwritten numbers.
 
