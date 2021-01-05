@@ -1,27 +1,29 @@
 # numberClassifier
 
-Neural Network For Handwritten Number Clasification 
+Neural Network Using MatLab 
 
 
-This neural network uses a "vectorized implementation" of the regularized cost function with MatLab.
+This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify (recognize) handwritten numbers.
 
-To get stared, load the dataset containing images of handwritten numbers.
+To get stared, load the dataset containing 5000 images of handwritten digits.
 
 ```Matlab
 load('ex4data1.mat');
 ```
 
-Randomly initialize weights for 20x20 Pixel Images of Digits using randInitializeWeights.
+Randomly initialize weights for 20x20 Pixel Images of Digits using randInitializeWeights. We will use one input layer and one hidden layer.
 
 ```Matlab
 input_layer_size  = 400;  % 20x20 Input Images of Digits
 hidden_layer_size = 25;   % 25 hidden units
-num_labels = 10;          % 10 labels, from 1 to 10 (note that we have mapped "0" to label 10)
+num_labels = 10;          % 10 labels, from 1 to 10 (we have mapped "0" to label 10)
 
 initial_Theta1 = randInitializeWeights(input_layer_size, hidden_layer_size);
 initial_Theta2 = randInitializeWeights(hidden_layer_size, num_labels);
+```
 
-% Unroll parameter matricise into one long vector of inputs
+Unroll parameter matricise into one long vector, 400 inputs long.
+```
 initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 ```
 
