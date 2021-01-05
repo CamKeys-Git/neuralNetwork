@@ -1,4 +1,5 @@
-# neuralNetwork
+# numberClassifier
+
 Neural Network For Handwritten Number Clasification With MatLab
 
 
