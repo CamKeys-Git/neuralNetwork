@@ -28,7 +28,7 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 ```
 
 nnCostFunction will return the initial cost using our random weights, initial_nn_params. The cost will be high before training.
-
+```
 J(\theta) =
 \frac{1}{m}\sum_{i=1}^m
 \sum_{k=1}^K 
@@ -38,6 +38,7 @@ J(\theta) =
 \sum_{k=1}^{400} {\left( \Theta_{j,k}^{(1)}\right)^2}+
 \sum_{j=1}^{10} 
 \sum_{k=1}^{25} {\left( \Theta_{j,k}^{(2)}\right)^2}\right]
+```
 
 ```
 % Weight regularization parameter (set this to 0 here).
