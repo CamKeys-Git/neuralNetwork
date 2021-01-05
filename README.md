@@ -22,7 +22,7 @@ initial_Theta1 = randInitializeWeights(input_layer_size, hidden_layer_size);
 initial_Theta2 = randInitializeWeights(hidden_layer_size, num_labels);
 ```
 
-Unroll parameter matricise into one long vector, 400 inputs long.
+Unroll 20x20 parameter matrices into one vector, 400 inputs long.
 ```
 initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 ```
