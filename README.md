@@ -1,6 +1,6 @@
 # numberClassifier
 
-##Neural Network Using MatLab
+## Neural Network Using MatLab
 
 
 This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify (recognize) handwritten numbers.
