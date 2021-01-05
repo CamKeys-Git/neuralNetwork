@@ -1,8 +1,8 @@
 # neuralNetwork
-Neural Network Using MatLab For Number Clasification 
+Neural Network For Handwritten Number Clasification With MatLab
 
 
-Load the dataset to get stared.
+To get stared, load the dataset containing images of handwritten numbers.
 
 ```Matlab
 load('ex4data1.mat');
