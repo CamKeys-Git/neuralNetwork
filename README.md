@@ -29,6 +29,8 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 
 Using MatLab to impliment the functions below for the regularized cost and the sigmoid activation function for logistic regression, nnCostFunction will return the initial cost using our random weights, initial_nn_params. The cost will be high before training.
 
+![Alt Text](https://i.imgur.com/RgSSkua.png?1)
+
 ![Alt Text](https://i.imgur.com/IWnFgmx.jpg)
 
 ```
