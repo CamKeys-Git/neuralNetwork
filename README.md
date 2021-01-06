@@ -42,7 +42,7 @@ J = nnCostFunction(initial_nn_params, input_layer_size, hidden_layer_size, num_l
 fprintf('Cost at parameters: %f', J);
 ```
 
-The code below will run the function checkNNGradients.m which will create a small neural network and dataset that will be used for checking your gradients. If the nnCostFunction (backpropagation) implementation is correct, you should see a relative dierence that is less than 1e-9.
+Before moving forward, eckNNGradients will create a small neural network and dataset that will be used for checking the gradients. If the nnCostFunction (backpropagation) implementation is correct, you should see a relative dierence that is less than 1e-9.
 
 ```Matlab
 checkNNGradients;
