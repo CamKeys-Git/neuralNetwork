@@ -30,7 +30,7 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 Using the regularized cost function shown below nnCostFunction will return the initial cost using our random weights, initial_nn_params. The cost will be high before training.
 
 ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](https://imgur.com/IWnFgmx)
+Format: ![Alt Text](https://i.imgur.com/IWnFgmx.jpg)
 
 ```
 % Weight regularization parameter (set this to 0 here).
