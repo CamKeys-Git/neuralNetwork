@@ -3,7 +3,7 @@
 ## Neural Network Using MatLab
 
 
-This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify (recognize) handwritten numbers.
+This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify (recognize) handwritten numbers. I worked on this project as part of the Machine Learning course through Coursera by Stanford Online. 
 
 To get stared, load the dataset containing 5000 images of handwritten digits.
 
@@ -29,7 +29,6 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 
 Using the regularized cost function shown below nnCostFunction will return the initial cost using our random weights, initial_nn_params. The cost will be high before training.
 
-![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](C:\Users\Cameron\Pictures\m.jpg)
 
 ```
