@@ -5,6 +5,8 @@
 
 This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify handwritten numbers. The neural network takes images as input to make preditions based on the dot product of weights and feature values plus the biases. I worked on this project as part of the Machine Learning course through Coursera by Stanford Online. 
 
+## How To Use
+
 To get stared, load the dataset containing 5000 images of handwritten digits.
 
 ```Matlab
