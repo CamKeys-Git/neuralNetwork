@@ -7,7 +7,7 @@ This is a number classifier that uses a "vectorized implementation" of the regul
 
 ## How To Use
 
-To get stared, load the dataset containing 5000 images of handwritten digits.
+All of the code below can be pasted into the MatLab terminal. To get stared, load the dataset containing 5000 images of handwritten digits.
 
 ```Matlab
 load('ex4data1.mat');
