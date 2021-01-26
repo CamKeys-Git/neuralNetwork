@@ -3,7 +3,7 @@
 ## Neural Network Using MatLab
 
 
-This is a number classifier that uses a "vectorized implementation" of the regularized cost function and gradient to classify handwritten numbers. The neural network takes images as input to make preditions based on the dot product of weights and feature values plus the biases. I worked on this project as part of the Machine Learning course through Coursera by Stanford Online. I was required to translate all ML math funtions into vectorized MatLab code from scratch. These include the sigmoid, logistic regression, gradient and regularized cost functions.
+This is a number classifier that uses a "vectorized implementation" of the regularized cost and gradient funtions to classify handwritten numbers. The neural network takes images as input to make preditions based on the dot product of weights and feature values plus the biases. I worked on this project as part of the Machine Learning course through Coursera by Stanford Online. I was required to translate all ML math funtions into MatLab code from scratch. These include the sigmoid, logistic regression, gradient and regularized cost functions.
 
 ## How To Use
 
